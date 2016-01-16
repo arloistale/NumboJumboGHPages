@@ -1,0 +1,147 @@
+body {
+	margin: 0;
+	background-color:#363638;
+}
+
+/* This sections designates the fonts for the page*/
+#header .title,  #header .tagline, #nav, .content p.entry-title, .content p.date {
+	font-family: 'Roboto Mono', serif;
+}
+
+p  {
+	font-family: 'Roboto Mono', serif;
+	font-size: 21px;
+}
+
+a {
+	font-size: 28px;
+}
+
+/*Below deesignates the styles for each of the HTML items */
+
+#container {
+	width: 60%;
+	height: 95%;
+	margin: 0 auto;
+	background-color:#FFFFFF;
+	top: 5px;
+	bottom: 200px;
+}
+
+.nav.nav-justified li a{
+	color: black;
+}
+
+.nav.nav-justified > li > a:hover,
+.nav.nav-justified > li > a:focus{
+	color:grey;
+	background-color:white;
+}
+
+#header {
+	height: 100px;
+	text-align: left;
+	padding: 0px;
+	margin-left:60px;
+}
+
+#header .title {
+	font-size:50px;
+	color:#CC6438;
+	margin-bottom: 10px;
+}
+
+#header .tagline {
+	font-size:28px;
+	color:#784C3E; 
+	margin-bottom:5px;
+}
+
+#footer{
+	width: 60%;
+	height: 60px;
+	margin: 0 auto;
+	background-color:#FFFFFF;
+}
+
+.content {
+	width: 1000px;
+	margin: 0 auto;
+	padding-bottom: 40px;
+}
+
+.content p.entry-title {
+	font-size: 30px;
+	color: #3D5771; 
+	margin-bottom: 10px;
+	margin-top: 60px;
+	margin-left:5px;
+}
+
+.content p.date {
+	font-size: 20px;
+	color: #5B798A; 
+	margin-bottom: 20px;
+	margin-top: 5px;
+	margin-left:5px;
+}
+
+.content p {
+	font-size:16px;
+	line-height: 24px;
+	color: #565656;
+	margin-left: 5px;
+	margin-right: 20px;
+}
+
+.content img.displayed {
+	position:relative;
+	margin-top: 5px;
+}
+
+#iconLarge{
+	margin: 0 auto;
+	text-align:center;
+	font-size: 28px;
+	padding: 5px;
+	padding-bottom: 20px;
+}
+
+#iconSmall{
+	margin: 0 auto;
+	text-align:center;
+}
+
+#iconSmall p{
+	font-size: 21px;
+}
+
+#info{
+	margin: 0 auto;
+	margin-top: 15px;
+	padding-left: 50px;
+	padding-right: 50px;
+	text-align: center;
+}
+
+#AV{
+	margin: 0 auto;
+	text-align: center;
+}
+
+#emails{
+	font-size: 21px;
+	font-family: 'Roboto Mono', serif; 
+}
+
+#socialInd{
+	text-align: center;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+
+#appRelease a{
+	text-align: center;
+	margin: auto;
+	padding: auto;
+}
