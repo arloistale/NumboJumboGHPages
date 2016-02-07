@@ -1,56 +1,164 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta name="google-site-verification" content="D2ePiN3vxTAMcx38nr9ZAhCPnRya482bnuh5YbSGXW0" />
-	   	<meta charset="utf-8">
-       		<title>Spacepace</title>
-       
-       <link href="style.css" rel="stylesheet" type="text/css">
-       <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-	
-		<!--COMMENT: This allows you to link to a font-->
-		<link href='https://fonts.googleapis.com/css?family=Roboto+Mono' rel='stylesheet' type='text/css'>
-	
-	</head>
-	<body>
-		
-        <!--Nav bar for main page and about-->
-		<div id="container">
-	
-			<nav class="nav">
-			  <div class="container-fluid">
-				<div>
-				  <ul class="nav nav-justified">
-				  	<li><a class="active" href="http://spacepace.me/">[Spacepace]</a></li>
-					<!--<li><a href="leaderboard.html">[Leaderboard]</a></li>-->
-					<li><a href="http://spacepace.me/about/">[About]</a></li>
-				  </ul>
-				</div>
-			
-			  </div>
-			</nav>	
-	
-        <div id="iconLarge"> <img src="images/Space8.png" width="512" height="512"/></div>
 
-        <!--Android and iOS links-->
-        <p id="socialInd">
-                <a target="_blank" title="android" href="https://play.google.com/store/apps/details?id=com.trinew.space">
-                    <img alt="androidDownload" src="images/androidDownload.png" width="172px" height="60px" border=0></a>
-               <a target="_blank" title="'iOS" href="https://itunes.apple.com/us/app/s.pace/id1046157224?ls=1&mt=8">
-                    <img alt="'appstore" src="images/appStoreDownload.svg" width="172px" height="60px" border=0></a>
-        </p>
-           
-        <br></br>
-        <!--Facebook and Twitter links-->
-        <p id="socialInd">Find us:<a target="_blank" title="find us on Facebook" href="https://www.facebook.com/spacepacegame">
-                <img alt="follow me on facebook" src="images/facebook_40x40.png" border=0></a>
-            <a target="_blank" title="follow me on twitter" href="https://twitter.com/spacepacegame">
-                <img alt="follow me on twitter" src="images/twitter_40x40.png" border=0></a>
-        </p>
-            
-        </div>	<!--end of container-->
-        
-        <div id="footer"></div>
-	
-	</body>
-<html/>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>NumboJumbo</title>
+
+    <!-- Bootstrap -->
+
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+    <link herf="bootstrap-social.css" rel="stylesheet" type="text/css">
+
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet">
+
+    <link herf='https://fonts.googleapis.com/css?family=Pcifico' rel='stylesheet' type='text/css'>
+
+    <style>
+    .jumbotron{
+      background-color: #2E2D88;
+      color: white;
+    }
+    /* Adds borders for tabs*/
+    .tab-content{
+      border-left: 1px solid  #ddd;
+      border-right: 1px solid #ddd;
+      border-bottom: 1px solid #ddd;
+      padding: 10px;
+    }
+    .nav-tabs{
+      margin-bottom: 0;
+    }
+    </style>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+
+  <body>
+    <!-- Adding Numbo Jumbo Header image -->
+    <div class="container-fluid">
+      <div class="row">
+       <img src="img/NumboJumbo_Title.png" class="img-responsive" alt="Responsive image">
+      </div>
+    </div>
+
+    <!-- Creating a list, which correspond to the header tabs-->
+    <ul class="nav nav-tabs navbar-middle">
+      <li role="presentation"><a href="index.html"><img src="img/home.png" class="img-responsive" alt="Responsive image"></a></li>
+      <li role="presentation"><a href="about.html"><img src="img/about.png" class="img-responsive" alt="Responsive image"></a></li>
+      <li role="presentation"><a href="http://numbojumbo.tumblr.com/"><img src="img/blog.png" class="img-responsive" alt="Responsive image"></a></li>
+    </ul>
+  </body>
+
+
+  <body>
+    <!--Create a container as a placeholder for the game's video-->
+    <div class="container">
+      
+      <!--panel heading closes out here-->
+      <div class="panel-body">
+        <div class="embed-responsive embed-responsive-16by9 hidden-xs">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/XlUOp2tjVUY" allowfullscreen></iframe>
+        </div>
+        <p class="visible-xs hidden-sm"> The video has been removed on an extra small sizewindows please expand your browser window to view it</p>
+      </div><!--Panel body ends here-->
+    </div><!--panel closes out here-->
+
+<div class="center-block" style="max-width:200px">
+  <a href="https://itunes.apple.com/us/app/tetris-free/id480805652?mt=8" class="btn btn-info" role="button">App Store</a>
+  <a href="https://play.google.com/store/apps/details?id=com.ea.game.tetris2011_na&hl=en" class="btn btn-success" role="button">Google Play</a>
+</div>
+
+<!-- social media icons -->
+<div class="center-block" style="max-width:140px">
+  <!-- facebook -->
+  <a href="https://www.facebook.com/numbo.jumbo" class="btn btn-social-icon btn-facebook">
+    <span class="fa fa-facebook"></span>
+  </a>
+  <!-- twitter -->
+  <a href="https://twitter.com/Numbo_Jumbo" class="btn btn-social-icon btn-twitter">
+    <span class="fa fa-twitter"></span>
+  </a>
+  <!-- tumblr -->
+  <a href="http://numbojumbo.tumblr.com/" class="btn btn-social-icon btn-tumblr">
+    <span class="fa fa-tumblr"></span>
+  </a>
+  </div>
+
+  <!-- Creating a list, which correspond to the footer-->
+  <div class="center-block" style="max-width:120px">
+    <ul class="nav nav-tabs">
+      <li role="presentation"><a href="contactform.html">Contact Us</a></li> 
+    </ul>
+  </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!--
+    <style type="text/css">
+    body {
+      font.size: 14%;
+      font-family: arial, sans-serif;
+    }
+    #nttLogo{
+      height: 100px;
+      width: 100px;
+    }
+    #websiteTitle{
+      font-size: 10em;
+      vertical-align: middle;
+      font-family: 'Pcifico', cursive;
+      padding-left: 15px;
+      color: #191970;
+    }
+    #websiteSlogan{
+      font-size: 5.4em;
+    }
+
+    /* Carousel Styling */
+    .slide1{
+      background-image: url('bkgrnd1.png');
+      height: 500px;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .slide2{
+      background-image: url('bkgrnd2.png');
+      height: 500px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    .slide3{
+      background-image: url('bkgrnd3.png');
+      height: 500px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    .Carousel-caption h1{
+      font-size: 5.4em;
+      font-family: 'Pcifico', cursive;
+      padding-bottom: .4em;
+    }
+    .Carousel-caption p{
+      font-size: 2em;
+    }
+    </style>
+    -->
+  </script>
+  </body>
+</html>
