@@ -6522,6 +6522,10 @@ button.close {
   margin-right: auto;
   margin-left: auto;
 }
+.container {
+  width: 940px;
+  .center-block();
+}
 .pull-right {
   float: right !important;
 }
