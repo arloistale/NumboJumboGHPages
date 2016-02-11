@@ -1,0 +1,49 @@
+body {
+	margin: 0;
+	background-color:#363638;
+}
+
+/* This sections designates the fonts for the page*/
+#header .title,  #header .tagline, #nav, .content p.entry-title, .content p.date {
+	font-family: 'Roboto Mono', serif;
+}
+
+p  {
+	font-family: 'Roboto Mono', serif;
+	font-size: 21px;
+}
+
+a {
+	font-size: 28px;
+}
+
+h1{
+	text-align:center;
+}
+
+/*Below deesignates the styles for each of the HTML items */
+
+#container {
+	width: 60%;
+	height: 95%;
+	margin: 0 auto;
+	background-color:#FFFFFF;
+	top: 5px;
+	bottom: 200px;
+}
+
+#footer{
+	width: 60%;
+	height: 60px;
+	margin: 0 auto;
+	background-color:#FFFFFF;
+}
+
+#email{
+	font-size: 21px;
+	font-family: 'Roboto Mono', serif; 
+}
+
+#bodyText{
+	font-family: 'Roboto Slab', serif;
+}
