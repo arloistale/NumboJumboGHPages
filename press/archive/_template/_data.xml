@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
 <game>
-	<title>Game Name</title>
+	<title>Numbo Jumbo</title>
 	<release-date>1 May, 2012</release-date>
-	<website>http://www.gamesite.com/</website>
+	<website>http://www.numbojumbo.com/</website>
 	<press-can-request-copy>TRUE</press-can-request-copy>
 
 	<platforms>
 		<platform>
 			<name>PC / Mac</name>
-			<link>http://www.gamesite.com/</link>
+			<link>http://www.numbojumbo.com/</link>
 		</platform>
 		<platform>
 			<name>Steam</name>
