@@ -19,20 +19,24 @@
     <link herf='https://fonts.googleapis.com/css?family=Pcifico' rel='stylesheet' type='text/css'>
 
     <style>
-    .jumbotron{
-      background-color: #2E2D88;
-      color: white;
+    
+    
+    .container {
+      width: 100%;
+      float: left;
+      border: 1px solid orange;
     }
-    /* Adds borders for tabs*/
-    .tab-content{
-      border-left: 1px solid  #ddd;
-      border-right: 1px solid #ddd;
-      border-bottom: 1px solid #ddd;
-      padding: 10px;
+    .your-centered-div {
+        max-width: 560px; /* you have to have a size or this method doesn't work */
+        max-height: 315px;
+        margin-right: auto;
+        margin-left: auto;
     }
-    .nav-tabs{
-      margin-bottom: 0;
+    .sizer {
+      width: 600px;
+      height: 600px;
     }
+    
     </style>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -70,13 +74,13 @@
         </div>
       </div>
     </div>
+    <br>
   </body>
 
   <body>
-    <!--Create a container as a placeholder for the game's video-->
+    <!--Create a container as a placeholder for the game's video -->
     <div class="container-fluid">
-      <!--panel heading closes out here-->
-      <div class="panel-body">
+      <div class="your-centered-div">
         <div class="embed-responsive embed-responsive-16by9">
           <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/XlUOp2tjVUY" allowfullscreen></iframe>
         </div>
@@ -94,26 +98,34 @@
   </ul> -->
 
 <!-- social media icons -->
-<div class="center-block" style="max-width:115px">
-  <!-- facebook -->
-  <a href="https://www.facebook.com/numbo.jumbo" class="btn btn-social-icon btn-facebook">
-    <span class="fa fa-facebook"></span>
-  </a>
-  <!-- twitter -->
-  <a href="https://twitter.com/Numbo_Jumbo" class="btn btn-social-icon btn-twitter">
-    <span class="fa fa-twitter"></span>
-  </a>
-  <!-- tumblr -->
-  <a href="http://numbojumbo.tumblr.com/" class="btn btn-social-icon btn-tumblr">
-    <span class="fa fa-tumblr"></span>
-  </a>
+<div class="containter-fluid">
+  <div class="row">
+    <div class="center-block" style="max-width:300px">
+      <!-- facebook -->
+      <div class="col-xs-4">
+        <a href="https://www.facebook.com/numbo.jumbo" role="button"><img src="images/facebook_40x40.png" class="img-responsive" alt="Responsive image"></a>
+      
+      </div>
+      <!-- twitter -->
+      <div class="col-xs-4">
+        <a href="https://twitter.com/Numbo_Jumbo" role="button"><img src="images/twitter_40x40.png" class="img-responsive" alt="Responsive image"></a>
+        
+      </div>
+      <!-- tumblr -->
+      <div class="col-xs-4">
+        <a href="http://numbojumbo.tumblr.com/" role="button"><img src="images/tumblr_40x40 copy.png" class="img-responsive" alt="Responsive image"></a>
+       
+      </div>
+    </div>
   </div>
+</div>
 
+<br>
 
   <div class="center-block" style="max-width:70px">
-      <p class="containter"><a href="mailto:contact@numbojumbo.com?Subject=Hello" target="_top">
-        Contact us</a></P>
-    </div>
+    <p class="containter"><a href="mailto:contact@numbojumbo.com?Subject=Hello" target="_top">
+      Contact us</a></P>
+  </div>
   <!-- Creating a list, which correspond to the footer
   <div class="center-block" style="max-width:170px">
     <ul class="nav nav-tabs">
@@ -126,58 +138,6 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
 
-    <!--
-    <style type="text/css">
-    body {
-      font.size: 14%;
-      font-family: arial, sans-serif;
-    }
-    #nttLogo{
-      height: 100px;
-      width: 100px;
-    }
-    #websiteTitle{
-      font-size: 10em;
-      vertical-align: middle;
-      font-family: 'Pcifico', cursive;
-      padding-left: 15px;
-      color: #191970;
-    }
-    #websiteSlogan{
-      font-size: 5.4em;
-    }
-
-    /* Carousel Styling */
-    .slide1{
-      background-image: url('bkgrnd1.png');
-      height: 500px;
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-    .slide2{
-      background-image: url('bkgrnd2.png');
-      height: 500px;
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-    }
-    .slide3{
-      background-image: url('bkgrnd3.png');
-      height: 500px;
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-    }
-    .Carousel-caption h1{
-      font-size: 5.4em;
-      font-family: 'Pcifico', cursive;
-      padding-bottom: .4em;
-    }
-    .Carousel-caption p{
-      font-size: 2em;
-    }
-    </style>
-    -->
   </script>
   </body>
 </html>

@@ -241,6 +241,20 @@ body {
   h3 {
     page-break-after: avoid;
   }
+  .nav-tabs{
+      margin-bottom: 0;
+  }
+  .jumbotron{
+    background-color: #2E2D88;
+    color: white;
+  }
+  /* Adds borders for tabs*/
+  .tab-content{
+    border-left: 1px solid  #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+  }
   .navbar {
     display: none;
   }
@@ -1127,6 +1141,7 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  margin: 0 auto;
 }
 .img-rounded {
   border-radius: 6px;
